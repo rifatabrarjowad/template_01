@@ -12,7 +12,42 @@ body{
     max-width: 1000px;
     background-color: #E4F9F5;
     margin:auto;
+    padding: 20px;
 }
-#pro{
-    width: 200px;
+
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 40%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5{
+    color: #11999e;
+}
+.heder-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.heder-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.heder-contact{
+    float: right;
+    padding: 30px;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
 }
