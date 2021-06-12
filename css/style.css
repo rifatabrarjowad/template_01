@@ -2,6 +2,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
    
 }
 body{
@@ -67,6 +68,7 @@ hr{
 .right-div{
     width: 70%;
     float: left;
+    font-family: 'Roboto', sans-serif !important;
 }
 .common-hr{
     border: solid black 1px;
